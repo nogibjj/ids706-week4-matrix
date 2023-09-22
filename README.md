@@ -16,7 +16,7 @@ This project aims to implement matrix testing using Github actions across variou
 - Test script for main (test_main.py)
 
 ## How to Proceed
-1. Begin by cloning the template from the project of the first week.
+1. Begin by cloning the template from the project of week2.
 2. Adjust the Github actions to perform tests across the specified Python versions.
 3. Ensure that each Python version is properly set up in the testing environment. Validate using main.py and test_main.py.
 
