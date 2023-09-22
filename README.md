@@ -1,4 +1,4 @@
-# Matrix Testing Project for Fall 2023-706
+# Matrix Testing Project for Fall 2023-706 ![CI](https://github.com/nogibjj/ids706-week4-matrix/actions/workflows/ci.yml/badge.svg)
 
 ## Objective
 This project aims to implement matrix testing using Github actions across various Python versions. Given that different teams might use different versions of Python, there can be inconsistencies in how functions perform. Our matrix test ensures that functions behave as expected across these versions. We are testing the following Python versions:
@@ -22,7 +22,7 @@ This project aims to implement matrix testing using Github actions across variou
 
 # The source code for the project is below
 
-# Pandas Descriptive Statistics Project ![CI](https://github.com/nogibjj/ids706-week2-panda/actions/workflows/ci.yml/badge.svg)
+# Pandas Descriptive Statistics Project 
 
 ## Overview
 
