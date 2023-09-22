@@ -1,3 +1,27 @@
+# Matrix Testing Project for Fall 2023-706
+
+## Objective
+This project aims to implement matrix testing using Github actions across various Python versions. Given that different teams might use different versions of Python, there can be inconsistencies in how functions perform. Our matrix test ensures that functions behave as expected across these versions. We are testing the following Python versions:
+- Python 3.7
+- Python 3.8
+- Python 3.9
+- Python 3.10
+- Python 3.11
+
+## What's Inside
+- Github action configurations (.yml)
+- Makefile for build and test
+- Requirements file for dependencies
+- A main script (main.py)
+- Test script for main (test_main.py)
+
+## How to Proceed
+1. Begin by cloning the template from the project of the first week.
+2. Adjust the Github actions to perform tests across the specified Python versions.
+3. Ensure that each Python version is properly set up in the testing environment. Validate using main.py and test_main.py.
+
+# The source code for the project is below
+
 # Pandas Descriptive Statistics Project ![CI](https://github.com/nogibjj/ids706-week2-panda/actions/workflows/ci.yml/badge.svg)
 
 ## Overview
