@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        
     steps:
       - uses: actions/checkout@v3
       - name: install packages
@@ -19,5 +23,3 @@ jobs:
         run: make test
       - name: format
         run: make format
-      - name: generate graph and markdown
-        run: python main.py
